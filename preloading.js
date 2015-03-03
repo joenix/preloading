@@ -138,7 +138,6 @@
 
 				// On Process
 				onProcess: function( percent ){
-					console.log( percent + '%' );
 					if( _.process ){
 						_.process( percent );
 					}
